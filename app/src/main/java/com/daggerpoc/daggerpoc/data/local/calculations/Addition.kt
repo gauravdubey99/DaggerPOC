@@ -1,4 +1,4 @@
-package com.daggerpoc.daggerpoc.di.modules.calculations
+package com.daggerpoc.daggerpoc.data.local.calculations
 
 import dagger.Module
 

@@ -1,4 +1,4 @@
-package com.daggerpoc.daggerpoc.ui
+package com.daggerpoc.daggerpoc.ui.main
 
 import android.content.Context
 import android.os.Bundle
@@ -9,8 +9,8 @@ import com.daggerpoc.daggerpoc.R
 import com.daggerpoc.daggerpoc.data.remote.RequestInterface
 import com.daggerpoc.daggerpoc.data.remote.VolleyStringRequestGet
 import com.daggerpoc.daggerpoc.di.modules.CalculationsModule
-import com.daggerpoc.daggerpoc.di.modules.calculations.Addition
-import com.daggerpoc.daggerpoc.extensions.component
+import com.daggerpoc.daggerpoc.data.local.calculations.Addition
+import com.daggerpoc.daggerpoc.util.component
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity(), RequestInterface {

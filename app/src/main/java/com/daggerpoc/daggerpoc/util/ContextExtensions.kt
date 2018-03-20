@@ -1,4 +1,4 @@
-package com.daggerpoc.daggerpoc.extensions
+package com.daggerpoc.daggerpoc.util
 
 import android.support.v7.app.AppCompatActivity
 import com.daggerpoc.daggerpoc.application.ApplicationClass

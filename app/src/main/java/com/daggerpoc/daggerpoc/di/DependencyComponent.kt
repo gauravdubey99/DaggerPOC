@@ -1,11 +1,9 @@
 package com.daggerpoc.daggerpoc.di
 
-import com.android.volley.RequestQueue
-import com.daggerpoc.daggerpoc.data.remote.VolleyRequestProvider
 import com.daggerpoc.daggerpoc.data.remote.VolleyStringRequestGet
 import com.daggerpoc.daggerpoc.di.modules.CalculationsModule
 import com.daggerpoc.daggerpoc.di.modules.ContextModule
-import com.daggerpoc.daggerpoc.ui.MainActivity
+import com.daggerpoc.daggerpoc.ui.main.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 

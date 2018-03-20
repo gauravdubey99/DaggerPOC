@@ -1,7 +1,7 @@
 package com.daggerpoc.daggerpoc.application
 
 import android.app.Application
-import com.daggerpoc.daggerpoc.di.modules.calculations.NumbersObject
+import com.daggerpoc.daggerpoc.data.local.calculations.NumbersObject
 import com.daggerpoc.daggerpoc.di.DaggerDependencyComponent
 import com.daggerpoc.daggerpoc.di.DependencyComponent
 import com.daggerpoc.daggerpoc.di.modules.CalculationsModule

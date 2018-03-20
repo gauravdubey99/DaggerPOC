@@ -1,7 +1,7 @@
 package com.daggerpoc.daggerpoc.di.modules
 
-import com.daggerpoc.daggerpoc.di.modules.calculations.NumbersObject
-import com.daggerpoc.daggerpoc.di.modules.calculations.Addition
+import com.daggerpoc.daggerpoc.data.local.calculations.NumbersObject
+import com.daggerpoc.daggerpoc.data.local.calculations.Addition
 import dagger.Module
 import dagger.Provides
 import javax.inject.Inject
