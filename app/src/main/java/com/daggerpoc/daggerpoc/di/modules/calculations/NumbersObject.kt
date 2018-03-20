@@ -1,4 +1,4 @@
-package com.daggerpoc.daggerpoc.data
+package com.daggerpoc.daggerpoc.di.modules.calculations
 
 import dagger.Module
 import dagger.Provides

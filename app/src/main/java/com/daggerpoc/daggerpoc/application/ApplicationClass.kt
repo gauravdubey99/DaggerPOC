@@ -1,7 +1,7 @@
 package com.daggerpoc.daggerpoc.application
 
 import android.app.Application
-import com.daggerpoc.daggerpoc.data.NumbersObject
+import com.daggerpoc.daggerpoc.di.modules.calculations.NumbersObject
 import com.daggerpoc.daggerpoc.di.DaggerDependencyComponent
 import com.daggerpoc.daggerpoc.di.DependencyComponent
 import com.daggerpoc.daggerpoc.di.modules.CalculationsModule
@@ -16,7 +16,7 @@ class ApplicationClass : Application(){
     override fun onCreate() {
         super.onCreate()
         dependentComponent  = DaggerDependencyComponent.builder()
-                .calculationsModule(CalculationsModule(NumbersObject(5,2)))
+                .calculationsModule(CalculationsModule(NumbersObject(5, 2)))
                 .contextModule(ContextModule(this)).build()
     }
 }

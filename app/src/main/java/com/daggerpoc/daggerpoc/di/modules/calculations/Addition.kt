@@ -1,6 +1,5 @@
 package com.daggerpoc.daggerpoc.di.modules.calculations
 
-import com.daggerpoc.daggerpoc.data.NumbersObject
 import dagger.Module
 
 /**
